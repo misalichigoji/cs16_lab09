@@ -5,7 +5,7 @@
 class AString {
     public:
         AString();
-        AString(str strvalue);
+        AString(string strvalue);
         string getStringValue();
         void cleanUp();
         void countLetters(int a[], const int ARRAYSIZE);
