@@ -100,3 +100,15 @@ void AString::getAString()
     getline(cin, temp);
     StringValue = temp;
 }
+
+bool compareCounts(int a[], int b[])
+{
+    //pre conditions: takes in two integer arrays each containing 26 objects each corresponding to a letter in the alphabet
+    //post conditions: returns true if the two arrays contain the same contents, otherwise returns false
+    for(int i =0, i < 25; i++)
+    {
+        if(a[i] == b[i])
+            return false;
+    }
+    return true;
+}
