@@ -39,13 +39,14 @@ int main() {
     // *** MISSING CODE HERE! *** //
     sentence1.countLetters(ca1, ARRAYSIZE);
     sentence2.countLetters(ca2, ARRAYSIZE);
-
+    cout << "bomboclart" << endl;
     // 4. Use external function compareCounts to decide
     //      if the 2 strings are anagrams of each other or not
 
     // *** MISSING CODE HERE! *** //
     bool badCount;
     badCount = compareCounts(ca1, ca2);
+    cout << "bomboclat" << endl;
     if (!badCount) {
         // *** MISSING CODE HERE! *** //
         cout << "The strings are anagrams.\n";
