@@ -19,7 +19,7 @@ int main() {
     //      print the string values
     AString sentence1, sentence2("nothing");
     cout << "Two objects declared with values: ";
-    cout << sentence1.getStringValue() << " and "; y
+    cout << sentence1.getStringValue() << " and ";
     cout << sentence2.getStringValue() << endl;
 
 

@@ -3,8 +3,9 @@
 // Define all member functions for class AString
 //    as well as all other functions that need definition
 
+
 AString::AString(): StringValue("") {} //default constructor
-AString::Astring(string strvalue): StringValue(strvalue) {} //constructor for when called with 1 string parameter
+AString::AString(string strvalue): StringValue(strvalue) {} //constructor for when called with 1 string parameter
 
 string AString::getStringValue()
 {
@@ -36,7 +37,7 @@ void AString::countLetters(int a[], const int ARRAYSIZE)
     int size = StringValue.size();
     for(int i = 0; i < size; i++)
     {
-        if(StringValue[i]) == 'a'
+        if(StringValue[i] == 'a')
             a[i]++;
         else if(StringValue[i] == 'b')
             a[i]++;
@@ -105,7 +106,7 @@ bool compareCounts(int a[], int b[])
 {
     //pre conditions: takes in two integer arrays each containing 26 objects each corresponding to a letter in the alphabet
     //post conditions: returns true if the two arrays contain the same contents, otherwise returns false
-    for(int i =0, i < 25; i++)
+    for(int i =0; i < 25; i++)
     {
         if(a[i] == b[i])
             return false;
