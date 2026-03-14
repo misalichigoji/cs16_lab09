@@ -46,7 +46,7 @@ int main() {
     // *** MISSING CODE HERE! *** //
     bool badCount;
     badCount = compareCounts(ca1, ca2);
-    if (badCount) {
+    if (!badCount) {
         // *** MISSING CODE HERE! *** //
         cout << "The strings are anagrams.\n";
     } else {
