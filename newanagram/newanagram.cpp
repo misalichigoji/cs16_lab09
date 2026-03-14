@@ -47,7 +47,7 @@ int main() {
     bool badCount;
     badCount = compareCounts(ca1, ca2);
     cout << "bomboclat" << endl;
-    if (!badCount) {
+    if (badCount) {
         // *** MISSING CODE HERE! *** //
         cout << "The strings are anagrams.\n";
     } else {

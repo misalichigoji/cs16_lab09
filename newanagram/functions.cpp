@@ -108,7 +108,7 @@ bool compareCounts(int a[], int b[])
     //post conditions: returns true if the two arrays contain the same contents, otherwise returns false
     for(int i =0; i < 26; i++)
     {
-        if(a[i] == b[i])
+        if(a[i] != b[i])
             return false;
     }
     return true;
