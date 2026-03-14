@@ -38,57 +38,57 @@ void AString::countLetters(int a[], const int ARRAYSIZE)
     for(int i = 0; i < size; i++)
     {
         if(StringValue[i] == 'a')
-            a[i]++;
+            a[0]++;
         else if(StringValue[i] == 'b')
-            a[i]++;
+            a[1]++;
         else if(StringValue[i] == 'c')
-            a[i]++;
+            a[2]++;
         else if(StringValue[i] == 'd')
-            a[i]++;
+            a[3]++;
         else if(StringValue[i] == 'e')
-            a[i]++;
+            a[4]++;
         else if(StringValue[i] == 'f')
-            a[i]++;
+            a[5]++;
         else if(StringValue[i] == 'g')
-            a[i]++;
+            a[6]++;
         else if(StringValue[i] == 'h')
-            a[i]++;
+            a[7]++;
         else if(StringValue[i] == 'i')
-            a[i]++;
+            a[8]++;
         else if(StringValue[i] == 'j')
-            a[i]++;
+            a[9]++;
         else if(StringValue[i] == 'k')
-            a[i]++;
+            a[10]++;
         else if(StringValue[i] == 'l')
-            a[i]++;
+            a[11]++;
         else if(StringValue[i] == 'm')
-            a[i]++;
+            a[12]++;
         else if(StringValue[i] == 'n')
-            a[i]++;
+            a[13]++;
         else if(StringValue[i] == 'o')
-            a[i]++;
+            a[14]++;
         else if(StringValue[i] == 'p')
-            a[i]++;
+            a[15]++;
         else if(StringValue[i] == 'q')
-            a[i]++;
+            a[16]++;
         else if(StringValue[i] == 'r')
-            a[i]++;
+            a[17]++;
         else if(StringValue[i] == 's')
-            a[i]++;
+            a[18]++;
         else if(StringValue[i] == 't')
-            a[i]++;
+            a[19]++;
         else if(StringValue[i] == 'u')
-            a[i]++;
+            a[20]++;
         else if(StringValue[i] == 'v')
-            a[i]++;
+            a[21]++;
         else if(StringValue[i] == 'w')
-            a[i]++;
+            a[22]++;
         else if(StringValue[i] == 'x')
-            a[i]++;
+            a[23]++;
         else if(StringValue[i] == 'y')
-            a[i]++;
+            a[24]++;
         else if(StringValue[i] == 'z')
-            a[i]++;
+            a[25]++;
     }
 }
 
@@ -106,7 +106,7 @@ bool compareCounts(int a[], int b[])
 {
     //pre conditions: takes in two integer arrays each containing 26 objects each corresponding to a letter in the alphabet
     //post conditions: returns true if the two arrays contain the same contents, otherwise returns false
-    for(int i =0; i < 25; i++)
+    for(int i =0; i < 26; i++)
     {
         if(a[i] == b[i])
             return false;
