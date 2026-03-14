@@ -24,7 +24,7 @@ string Student::getFirstAndMiddleNames() {
 }
 
 string Student::getFullName() { 
-  return firstAndMiddleNames + lastName;
+  return firstAndMiddleNames + " " + lastName;
 }
 
 // THIS MEMBER FUNCTION IS DEFINED FOR YOU ALREADY:
